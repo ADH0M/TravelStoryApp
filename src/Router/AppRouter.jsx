@@ -21,14 +21,14 @@ const ROLES = {
 const AppRouter = () => {
   return (
    <Routes>
-        <Route path="/login" element={<Login/>}/>
-        <Route path="/register" element={<Register/>}/>
+        <Route path="/TravelStoryApp/login" element={<Login/>}/>
+        <Route path="/TravelStoryApp/register" element={<Register/>}/>
           <Route path="" element={<Layout/>} >
-          <Route path="/" element={<Home/>}/>
-          <Route path="/kanbanPage" element={<KanbanPage/>}/>
-          <Route path="/bestimg" element ={<BestImgs/>}/>
-          {/* <Route path="/contucts" element ={<Contacts/>}/> */}
-          <Route path="/favoriteImg" element ={<FavoriteImg/>}/>
+          <Route path="/TravelStoryApp/" element={<Home/>}/>
+          <Route path="/TravelStoryApp/kanbanPage" element={<KanbanPage/>}/>
+          <Route path="/TravelStoryApp/bestimg" element ={<BestImgs/>}/>
+          {/* <Route path="/TravelStoryApp//contucts" element ={<Contacts/>}/> */}
+          <Route path="/TravelStoryApp/favoriteImg" element ={<FavoriteImg/>}/>
 
           <Route element={<PrivateRoute role={[ROLES.Admin]}/>} >
           

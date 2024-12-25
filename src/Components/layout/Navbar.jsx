@@ -54,12 +54,12 @@ const Navbar = () => {
         </div>
         <section className='relative'>
           <ul className={`flex flex-col  list-none gap-4 sm:flex-row sm:flex hidden bg-white p-2 sm:bg-transparent sm:p-0  `}>
-            <li className='nav-btn' onClick={()=>navigate('/')}>home</li>
-            <li className='nav-btn' onClick={()=>navigate('/bestimg')}> Appointments section</li>  
+            <li className='nav-btn' onClick={()=>navigate('/TravelStoryApp/')}>home</li>
+            <li className='nav-btn' onClick={()=>navigate('/TravelStoryApp/bestimg')}> Appointments section</li>  
             {/* <li className='nav-btn' onClick={()=>navigate('/aboutus')}>about us</li> */}
             {/* <li className='nav-btn' onClick={()=>navigate('/contucts')}>contucts</li> */}
-            <li className='nav-btn' onClick={()=>navigate('/kanbanPage')}>Your Map</li>
-            <li className='nav-btn' onClick={()=>navigate('/favoriteImg')}>Favorite Image</li>
+            <li className='nav-btn' onClick={()=>navigate('/TravelStoryApp/kanbanPage')}>Your Map</li>
+            <li className='nav-btn' onClick={()=>navigate('/TravelStoryApp/favoriteImg')}>Favorite Image</li>
 
           </ul>
         </section>
