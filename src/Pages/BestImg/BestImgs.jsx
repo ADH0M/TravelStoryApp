@@ -3,14 +3,14 @@ import image1 from '../../assets/images/about.jpg';
 import image2 from '../../assets/images/vestrahorn.jpg';
 import { useState } from 'react';
 
-import DragAndDropTasks from './DragAndDrop/Page';
-import Shown from './Inputs/Shown';
-import DragAndDropComponent from './Inputs/DragAndDropComponent';
+// import DragAndDropTasks from './DragAndDrop/Page';
+// import Shown from './Inputs/Shown';
+// import DragAndDropComponent from './Inputs/DragAndDropComponent';
 
 import DragAndDrop from './DragAndDrop';
-import Part3 from './part3/Part3';
-import DndPage from './part3/Try/DndPage';
-import KanbanPage from '../../KanbanSection/KanbanPage';
+// import Part3 from './part3/Part3';
+// import DndPage from './part3/Try/DndPage';
+// import KanbanPage from '../../KanbanSection/KanbanPage';
 
 
 const images =[

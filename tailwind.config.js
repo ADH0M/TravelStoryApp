@@ -15,9 +15,9 @@ export default {
         secondary:'#EF863E',
       },
       backgroundImage:{
-        'login-bg-img':'url(./src/assets/images/login.jpg)',
-        'signup-bg-img':'url(./src/assets/images/signup.jpg)',
-        'about-bg-img':'url(./src/assets/images/about.jpg)',
+        'login-bg-img':"url('./src/assets/images/login.jpg')",
+        'signup-bg-img':"url('./src/assets/images/signup.jpg')",
+        'about-bg-img':"url('./src/assets/images/about.jpg')",
 
       }
 
